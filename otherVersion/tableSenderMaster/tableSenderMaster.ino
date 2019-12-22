@@ -1,3 +1,4 @@
+//version 0.002
 char data[1536];
 
 union {
@@ -46,7 +47,7 @@ void loop(){
     unsigned int a3 = analogRead(A3);
     //a3 >> 2;
     data[(i * 6) + 3] = char(a3);
-    int time = millis();
+   
 
     //u.var = millis();
     u.var = 10000;
